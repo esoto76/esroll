@@ -1,0 +1,21 @@
+{
+  "name": "@esroll/root",
+  "packageManager": "yarn@3.2.0",
+  "description": "es rollupjs plugins, helpers, and utilities",
+  "version": "0.0.0",
+  "author": "Eric Sotomayor <elpasocolorartist@gmail.com>",
+  "license": "ISC",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/esoto76/esroll.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/esoto76/esroll/issues"
+  },
+  "homepage": "https://github.com/esoto76/esroll#readme"
+}
