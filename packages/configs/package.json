@@ -19,7 +19,8 @@
     }
   },
   "scripts": {
-    "build": "yarn b:ru"
+    "build": "yarn b:ru",
+    "build:watch": "yarn bw:ru"
   },
   "dependencies": {
     "@types/node": "^17.0.38",
