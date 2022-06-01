@@ -10,7 +10,8 @@
     "packages/core"
   ],
   "scripts": {
-    "b:ru": "cd $INIT_CWD && rollup -c"
+    "b:ru": "cd $INIT_CWD && rollup -c",
+    "bw:ru": "cd $INIT_CWD && rollup -c -w"
   },
   "dependencies": {
     "@babel/core": "^7.18.2",
