@@ -1,0 +1,44 @@
+{
+  "name": "@esroll/helpers",
+  "version": "0.0.1-alpha.1",
+  "description": "es rollupjs build helpers",
+  "author": "Eric Sotomayor <elpasocolorartist@gmail.com>",
+  "license": "ISC",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.js",
+  "type": "commonjs",
+  "files": [
+    "./dist/**/*"
+  ],
+  "exports": {
+    ".": {
+      "require": "./dist/index.js",
+      "import": "./dist/index.mjs",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "scripts": {
+    "build": "yarn b:ru",
+    "build:watch": "yarn bw:ru"
+  },
+  "dependencies": {
+    "@types/node": "^17.0.38",
+    "rollup": "^2.75.5",
+    "tslib": "^2.4.0",
+    "typescript": "^4.7.2"
+  },
+  "keywords": [
+    "esroll/helpers",
+    "esroll-helpers",
+    "es-rollup-helpers"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/esoto76/esroll.git"
+  },
+  "bugs": {
+    "url": "https://github.com/esoto76/esroll/issues"
+  },
+  "homepage": "https://github.com/esoto76/esroll/tree/main/packages/helpers#readme"
+}
