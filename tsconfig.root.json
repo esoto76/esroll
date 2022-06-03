@@ -27,7 +27,8 @@
     "rootDir": ".",
     "paths": {
       "@esroll": ["./packages/core/*"],
-      "@configs": ["./packages/configs/*"]
+      "@configs": ["./packages/configs/*"],
+      "@helpers": ["./packages/helpers/*"]
     }
   },
   "include": ["./packages/**/*/src"],
