@@ -2,7 +2,7 @@
   "name": "esroll-monorepo",
   "description": "es rollupjs plugins, helpers, and utilities",
   "author": "Eric Sotomayor <elpasocolorartist@gmail.com>",
-  "packageManager": "pnpm@7.7.0",
+  "packageManager": "pnpm@7.7.1",
   "engines": {
     "node": ">=10",
     "pnpm": ">=7"
